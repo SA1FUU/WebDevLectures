@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf1fd;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    row-gap: 5px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 600;
+    /* text-decoration: underline; */
+}
+
+.lecture-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .lectures {
+    /* background-color: #f0f0f0; */
+    border: 0.5px solid #009688;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+  }
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    color: #fff;
+    border: none;
+}
+
+.sub-heading {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 0%;
+    color: #009688;
+}
+
+.intro {
+    line-height: 10px;
+}
+
+footer {
+    color: #fff;
+    background-color: #333;
+    line-height: 50px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0.5rem;
+}
+
+footer b {
+    color: #009688;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    color: #009688;
+}
+
+a:hover {
+    color: #edf1fd;
+}
